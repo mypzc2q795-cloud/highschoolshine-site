@@ -1,0 +1,18 @@
+{
+  "refresh": {
+    "sedan": 120,
+    "suv": 140,
+    "truck": 160,
+    "time": "1.5–2.5 hrs"
+  },
+  "deluxe": {
+    "sedan": 199,
+    "suv": 239,
+    "truck": 279,
+    "time": "2.5–4 hrs"
+  },
+  "pet_hair": {
+    "refresh_price": 35,
+    "deluxe_price": 25
+  }
+}
