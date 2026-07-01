@@ -4,13 +4,33 @@
   "truck": 129,
   "discount_percent": 15,
   "benefits": [
-    { "title": "One Refresh Detail monthly", "description": "Included in your membership, every month" },
-    { "title": "Reserved monthly time slot", "description": "A standing appointment — never competing for openings" },
-    { "title": "15% off all add-ons", "description": "Pet hair removal, headlight restoration, ceramic upgrades & more" },
-    { "title": "Locked-in pricing", "description": "Your rate never increases, even as standard pricing does" },
-    { "title": "Priority response", "description": "Member messages answered within hours, not days" },
-    { "title": "Annual loyalty upgrade", "description": "One free Deluxe Detail upgrade after 12 consecutive months" },
-    { "title": "Referral perk", "description": "Refer a friend who joins — get a free month" },
-    { "title": "Welcome gift", "description": "A black & gold High School Shine gift bag after your first detail — logo magnet, branded air freshener, premium microfiber towel, and referral cards" }
+    {
+      "title": "One Refresh Detail monthly",
+      "description": "Included in your membership, every month"
+    },
+    {
+      "title": "Reserved monthly time slot",
+      "description": "A standing appointment — never competing for openings"
+    },
+    {
+      "title": "15% off all add-ons",
+      "description": "Pet hair removal, and much more to come"
+    },
+    {
+      "title": "Locked-in pricing",
+      "description": "Your rate never increases, even as standard pricing does"
+    },
+    {
+      "title": "Priority response",
+      "description": "Member messages answered within hours, not days"
+    },
+    {
+      "title": "Annual loyalty upgrade",
+      "description": "One free Deluxe Detail upgrade after 12 consecutive months"
+    },
+    {
+      "title": "Referral perk",
+      "description": "Refer a friend who joins — get a free month"
+    }
   ]
 }
