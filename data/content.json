@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "eyebrow": "Premium Mobile Detailing · West Linn, OR",
+    "heading_main": "We bring the",
+    "heading_highlight": "shine",
+    "heading_after": "to your driveway.",
+    "lead": "Hand detailing for your car, SUV, or truck — done right where you park it. No drop-off, no waiting rooms, just a showroom finish at home or work.",
+    "cta_primary": "Book Now",
+    "cta_secondary": "View Packages",
+    "stats": [
+      { "num": "100%", "label": "Mobile Service" },
+      { "num": "2", "label": "Detail Packages" },
+      { "num": "5+", "label": "Areas Served" }
+    ]
+  },
+  "why_us": {
+    "eyebrow": "Why High School Shine",
+    "heading": "Detailing backed by",
+    "heading_highlight": "real chemistry, not guesswork.",
+    "subheading": "This isn't a wipe-and-go operation. Every product, every method, and every vehicle is researched before we ever touch your car.",
+    "cards": [
+      { "number": "01", "title": "Chemistry-First Approach", "description": "Every product is chosen for pH balance, surface compatibility, and how it interacts with your specific paint and interior materials — not just because it's what's on the shelf." },
+      { "number": "02", "title": "Researched Before We Arrive", "description": "We look into your vehicle's make, model, and known trouble spots ahead of time, so we know exactly what it needs before we ever park in your driveway." },
+      { "number": "03", "title": "A Profile For Every Car", "description": "We're building a growing database on every vehicle we detail — tracking what works, what to avoid, and how it ages — so each future visit gets even more precise." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services & Pricing",
+    "heading": "Two packages.",
+    "heading_highlight": "Zero guesswork.",
+    "subheading": "Pricing varies by vehicle size. Every detail is done by hand, on-site, using premium products — and Deluxe builds on everything in Refresh.",
+    "refresh": {
+      "title": "Refresh Detail",
+      "tag": "For regular maintenance & weekly drivers",
+      "features": [
+        "Foam pre-wash (when appropriate)",
+        "Hand wash with pH-neutral shampoo",
+        "Wheel face & tire cleaning + dressing",
+        "Door jambs cleaned",
+        "Spray ceramic protection (P&S Bead Maker)",
+        "Streak-free exterior glass",
+        "Light interior vacuum & wipe-down",
+        "Interior windows cleaned",
+        "Optional new car scent"
+      ],
+      "best_for": "Vehicles detailed every 1–3 months",
+      "cta": "Book Refresh Detail"
+    },
+    "deluxe": {
+      "title": "Deluxe Detail",
+      "tag": "For a deep, transformative clean",
+      "includes_note": "Everything in Refresh Detail, plus:",
+      "features": [
+        "CarPro Lift pre-wash foam + decontamination",
+        "Deep wheel, tire & wheel well cleaning",
+        "Bug & light tar removal",
+        "Contact hand wash + premium drying",
+        "Griot's 3-in-1 Ceramic Wax",
+        "Trim dressing & restoration",
+        "Deep vacuum + compressed air blowout",
+        "UV interior protectant on all plastics",
+        "Leather cleaned & conditioned",
+        "Floor mats & interior glass cleaned",
+        "Light pet hair / stain removal"
+      ],
+      "best_for": "Pre-sale, seasonal, or first-time deep clean",
+      "cta": "Book Deluxe Detail"
+    },
+    "upsell": {
+      "tag": "Add-On",
+      "title": "Heavy Pet Hair Removal",
+      "description": "homes with pets often need more than a standard vacuum. Add deep pet hair extraction for {refresh_price} with Refresh Detail, or {deluxe_price} with Deluxe Detail (which already includes light pet hair removal)."
+    }
+  },
+  "membership_extra": {
+    "eyebrow": "For Our Regulars",
+    "heading": "Shine All",
+    "heading_highlight": "The Time",
+    "intro": "A membership for owners who want their car to always look its best — without thinking about booking it. One monthly detail, a reserved spot on the calendar, and real perks that add up."
+  },
+  "gallery_extra": {
+    "eyebrow": "Our Work",
+    "heading": "See the",
+    "heading_highlight": "shine for yourself.",
+    "subheading": "A look at real vehicles we've detailed. Photos are added directly by High School Shine and update automatically.",
+    "instagram_cta": "Come see more of our work on Instagram"
+  },
+  "testimonials_extra": {
+    "eyebrow": "Customer Reviews",
+    "heading": "What our",
+    "heading_highlight": "customers say.",
+    "subheading": "Real feedback from real driveways."
+  },
+  "area": {
+    "eyebrow": "Service Area",
+    "heading": "Currently serving the",
+    "heading_highlight": "Westside.",
+    "description": "Based in West Linn, we're expanding north into the Portland metro. Don't see your city listed? Reach out — we may already be headed your way.",
+    "cities": [
+      { "name": "West Linn", "status": "active" },
+      { "name": "Lake Oswego", "status": "active" },
+      { "name": "Tualatin / Wilsonville", "status": "active" },
+      { "name": "Forest Heights / Portland", "status": "soon" }
+    ],
+    "map_caption": "West Linn & surrounding areas"
+  },
+  "about_extra": {
+    "quote": "We treat every car like it's about to be judged in a school parking lot — because attention to detail is the whole point.",
+    "quote_attribution": "— High School Shine",
+    "heading": "Premium detailing,",
+    "heading_highlight": "built on the basics done right.",
+    "description": "High School Shine is a mobile detailing business based in West Linn, Oregon. We started with one simple idea: every car deserves a real, hands-on detail — not a rushed drive-through wash — without the customer having to go anywhere.",
+    "list_items": [
+      { "title": "Fully Mobile", "description": "We bring our own equipment, water, and power to your location." },
+      { "title": "Professional-Grade Products", "description": "P&S, CarPro, and Griot's Garage — trusted by detailers nationwide." },
+      { "title": "Honest Pricing", "description": "Two clear packages, priced by vehicle size — no upsell surprises." }
+    ]
+  },
+  "contact_extra": {
+    "eyebrow": "Get In Touch",
+    "heading": "Let's get your car",
+    "heading_highlight": "shining.",
+    "description": "Fill out the form and we'll get back to you with availability and a confirmed quote — usually within a day.",
+    "booking_note": "By appointment, scheduled after contact"
+  },
+  "nav": {
+    "book_now": "Book Now"
+  }
+}
