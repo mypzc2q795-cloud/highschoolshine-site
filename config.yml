@@ -20,6 +20,8 @@ collections:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Service Area Description", name: "service_area", widget: "string" }
           - { label: "Response Time Note", name: "response_time", widget: "string" }
+          - { label: "Instagram Handle (e.g. @highschoolshine)", name: "instagram_handle", widget: "string", required: false }
+          - { label: "Instagram Link", name: "instagram_url", widget: "string", required: false }
 
       - name: "packages"
         label: "Package Pricing"
@@ -101,3 +103,162 @@ collections:
             fields:
               - { label: "Photo", name: "image", widget: "image" }
               - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  - name: "site-content"
+    label: "Website Text"
+    files:
+
+      - name: "content"
+        label: "All Page Text"
+        file: "data/content.json"
+        fields:
+
+          - label: "Hero (Top Banner)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlighted word)", name: "heading_main", widget: "string" }
+              - { label: "Heading Highlighted Word", name: "heading_highlight", widget: "string" }
+              - { label: "Heading (after highlighted word)", name: "heading_after", widget: "string" }
+              - { label: "Lead Paragraph", name: "lead", widget: "text" }
+              - { label: "Primary Button Text", name: "cta_primary", widget: "string" }
+              - { label: "Secondary Button Text", name: "cta_secondary", widget: "string" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "num", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          - label: "Why Us Section"
+            name: "why_us"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "text" }
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "number", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Services Section"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "text" }
+              - label: "Refresh Package"
+                name: "refresh"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Tag Line", name: "tag", widget: "string" }
+                  - label: "Features"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Feature", name: "feature", widget: "string" }
+                  - { label: "Best For Note", name: "best_for", widget: "string" }
+                  - { label: "Button Text", name: "cta", widget: "string" }
+              - label: "Deluxe Package"
+                name: "deluxe"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Tag Line", name: "tag", widget: "string" }
+                  - { label: "Includes Note", name: "includes_note", widget: "string" }
+                  - label: "Features"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Feature", name: "feature", widget: "string" }
+                  - { label: "Best For Note", name: "best_for", widget: "string" }
+                  - { label: "Button Text", name: "cta", widget: "string" }
+              - label: "Add-On Note"
+                name: "upsell"
+                widget: "object"
+                fields:
+                  - { label: "Tag", name: "tag", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description (write {refresh_price} and {deluxe_price} where those prices should appear)", name: "description", widget: "text" }
+
+          - label: "Membership Section"
+            name: "membership_extra"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Intro Text", name: "intro", widget: "text" }
+
+          - label: "Our Work / Gallery Section"
+            name: "gallery_extra"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "text" }
+
+          - label: "Testimonials Section"
+            name: "testimonials_extra"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "text" }
+
+          - label: "Service Area Section"
+            name: "area"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Cities / Areas"
+                name: "cities"
+                widget: "list"
+                fields:
+                  - { label: "City / Area Name", name: "name", widget: "string" }
+                  - { label: "Status", name: "status", widget: "select", options: ["active", "soon"] }
+              - { label: "Map Caption", name: "map_caption", widget: "string" }
+
+          - label: "About Section"
+            name: "about_extra"
+            widget: "object"
+            fields:
+              - { label: "Pull Quote", name: "quote", widget: "text" }
+              - { label: "Quote Attribution", name: "quote_attribution", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Highlight List"
+                name: "list_items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
+
+          - label: "Contact Section"
+            name: "contact_extra"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
+              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Booking Note", name: "booking_note", widget: "string" }
+
+          - label: "Navigation"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Book Now Button Text", name: "book_now", widget: "string" }
