@@ -13,17 +13,6 @@
       { "num": "5+", "label": "Areas Served" }
     ]
   },
-  "why_us": {
-    "eyebrow": "Why High School Shine",
-    "heading": "Detailing backed by",
-    "heading_highlight": "real chemistry, not guesswork.",
-    "subheading": "This isn't a wipe-and-go operation. Every product, every method, and every vehicle is researched before we ever touch your car.",
-    "cards": [
-      { "number": "01", "title": "Chemistry-First Approach", "description": "Every product is chosen for pH balance, surface compatibility, and how it interacts with your specific paint and interior materials — not just because it's what's on the shelf." },
-      { "number": "02", "title": "Researched Before We Arrive", "description": "We look into your vehicle's make, model, and known trouble spots ahead of time, so we know exactly what it needs before we ever park in your driveway." },
-      { "number": "03", "title": "A Profile For Every Car", "description": "We're building a growing database on every vehicle we detail — tracking what works, what to avoid, and how it ages — so each future visit gets even more precise." }
-    ]
-  },
   "services": {
     "eyebrow": "Services & Pricing",
     "heading": "Two packages.",
@@ -91,19 +80,6 @@
     "heading_highlight": "customers say.",
     "subheading": "Real feedback from real driveways."
   },
-  "area": {
-    "eyebrow": "Service Area",
-    "heading": "Currently serving the",
-    "heading_highlight": "Westside.",
-    "description": "Based in West Linn, we're expanding north into the Portland metro. Don't see your city listed? Reach out — we may already be headed your way.",
-    "cities": [
-      { "name": "West Linn", "status": "active" },
-      { "name": "Lake Oswego", "status": "active" },
-      { "name": "Tualatin / Wilsonville", "status": "active" },
-      { "name": "Forest Heights / Portland", "status": "soon" }
-    ],
-    "map_caption": "West Linn & surrounding areas"
-  },
   "about_extra": {
     "quote": "We treat every car like it's about to be judged in a school parking lot — because attention to detail is the whole point.",
     "quote_attribution": "— High School Shine",
@@ -113,7 +89,9 @@
     "list_items": [
       { "title": "Fully Mobile", "description": "We bring our own equipment, water, and power to your location." },
       { "title": "Professional-Grade Products", "description": "P&S, CarPro, and Griot's Garage — trusted by detailers nationwide." },
-      { "title": "Honest Pricing", "description": "Two clear packages, priced by vehicle size — no upsell surprises." }
+      { "title": "Honest Pricing", "description": "Two clear packages, priced by vehicle size — no upsell surprises." },
+      { "title": "For Those Who Serve", "description": "First responders, military members, and veterans get 10% off every detail — thank you for what you do." },
+      { "title": "Giving Back", "description": "5% of profit from every job goes to a charity you choose: St. Jude Children's Research Hospital, Big Brothers Big Sisters Columbia Northwest, or Junior Achievement of Oregon & SW Washington." }
     ]
   },
   "contact_extra": {
