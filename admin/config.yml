@@ -131,22 +131,6 @@ collections:
                   - { label: "Number", name: "num", widget: "string" }
                   - { label: "Label", name: "label", widget: "string" }
 
-          - label: "Why Us Section"
-            name: "why_us"
-            widget: "object"
-            fields:
-              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
-              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
-              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
-              - { label: "Subheading", name: "subheading", widget: "text" }
-              - label: "Cards"
-                name: "cards"
-                widget: "list"
-                fields:
-                  - { label: "Number", name: "number", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Description", name: "description", widget: "text" }
-
           - label: "Services Section"
             name: "services"
             widget: "object"
@@ -215,22 +199,6 @@ collections:
               - { label: "Heading (before highlight)", name: "heading", widget: "string" }
               - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
               - { label: "Subheading", name: "subheading", widget: "text" }
-
-          - label: "Service Area Section"
-            name: "area"
-            widget: "object"
-            fields:
-              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
-              - { label: "Heading (before highlight)", name: "heading", widget: "string" }
-              - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
-              - label: "Cities / Areas"
-                name: "cities"
-                widget: "list"
-                fields:
-                  - { label: "City / Area Name", name: "name", widget: "string" }
-                  - { label: "Status", name: "status", widget: "select", options: ["active", "soon"] }
-              - { label: "Map Caption", name: "map_caption", widget: "string" }
 
           - label: "About Section"
             name: "about_extra"
