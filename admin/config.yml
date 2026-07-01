@@ -260,9 +260,6 @@ collections:
 
           - label: "Navigation"
             name: "nav"
-            widget:
-            - label: "Navigation"
-            name: "nav"
             widget: "object"
             fields:
               - { label: "Book Now Button Text", name: "book_now", widget: "string" }
