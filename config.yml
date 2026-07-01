@@ -1,0 +1,103 @@
+backend:
+  name: github
+  repo: mypzc2q795-cloud/highschoolshine-site
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+
+      - name: "business"
+        label: "Business Info"
+        file: "data/business.json"
+        fields:
+          - { label: "Business Name", name: "business_name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Service Area Description", name: "service_area", widget: "string" }
+          - { label: "Response Time Note", name: "response_time", widget: "string" }
+
+      - name: "packages"
+        label: "Package Pricing"
+        file: "data/packages.json"
+        fields:
+          - label: "Refresh Detail"
+            name: "refresh"
+            widget: "object"
+            fields:
+              - { label: "Sedan Price", name: "sedan", widget: "number" }
+              - { label: "SUV / Crossover Price", name: "suv", widget: "number" }
+              - { label: "Truck / Large SUV Price", name: "truck", widget: "number" }
+              - { label: "Estimated Time", name: "time", widget: "string" }
+          - label: "Deluxe Detail"
+            name: "deluxe"
+            widget: "object"
+            fields:
+              - { label: "Sedan Price", name: "sedan", widget: "number" }
+              - { label: "SUV / Crossover Price", name: "suv", widget: "number" }
+              - { label: "Truck / Large SUV Price", name: "truck", widget: "number" }
+              - { label: "Estimated Time", name: "time", widget: "string" }
+          - label: "Pet Hair Add-On"
+            name: "pet_hair"
+            widget: "object"
+            fields:
+              - { label: "With Refresh ($)", name: "refresh_price", widget: "number" }
+              - { label: "With Deluxe ($)", name: "deluxe_price", widget: "number" }
+
+      - name: "membership"
+        label: "Shine All The Time Membership"
+        file: "data/membership.json"
+        fields:
+          - { label: "Sedan Price / month", name: "sedan", widget: "number" }
+          - { label: "SUV / Crossover Price / month", name: "suv", widget: "number" }
+          - { label: "Truck / Large SUV Price / month", name: "truck", widget: "number" }
+          - { label: "Add-On Discount %", name: "discount_percent", widget: "number" }
+          - label: "Benefits List"
+            name: "benefits"
+            widget: "list"
+            fields:
+              - { label: "Benefit Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+
+      - name: "about"
+        label: "About & Founder"
+        file: "data/about.json"
+        fields:
+          - { label: "Founder Name", name: "founder_name", widget: "string" }
+          - { label: "Founder Bio", name: "bio", widget: "text" }
+          - { label: "Founder Photo (optional)", name: "photo", widget: "image", required: false }
+
+  - name: "testimonials-gallery"
+    label: "Testimonials & Gallery"
+    files:
+
+      - name: "testimonials"
+        label: "Testimonials"
+        file: "data/testimonials.json"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.vehicle}}"
+            fields:
+              - { label: "Customer Name", name: "name", widget: "string" }
+              - { label: "Vehicle", name: "vehicle", widget: "string", required: false }
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Rating (1-5)", name: "rating", widget: "number", min: 1, max: 5, default: 5 }
+              - { label: "Date", name: "date", widget: "datetime", required: false }
+
+      - name: "gallery"
+        label: "Our Work / Gallery"
+        file: "data/gallery.json"
+        fields:
+          - label: "Photos"
+            name: "images"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
