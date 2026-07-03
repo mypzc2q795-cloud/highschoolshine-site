@@ -1,8 +1,8 @@
 {
   "refresh": {
-    "sedan": 120,
-    "suv": 140,
-    "truck": 160,
+    "sedan": 119,
+    "suv": 139,
+    "truck": 159,
     "time": "1.5–2.5 hrs"
   },
   "deluxe": {
