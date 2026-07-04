@@ -5,11 +5,11 @@
   "discount_percent": 15,
   "benefits": [
     {
-      "title": "One Refresh Detail monthly",
-      "description": "Included in your membership, every month"
+      "title": "One Refresh Detail every 4 weeks",
+      "description": "Included in your membership, every 4 weeks"
     },
     {
-      "title": "Reserved monthly time slot",
+      "title": "Reserved time slot every 4 weeks",
       "description": "A standing appointment — never competing for openings"
     },
     {
@@ -22,15 +22,15 @@
     },
     {
       "title": "Priority response",
-      "description": "Member messages answered within hours, not days"
+      "description": "Member messages answered within a few hours or less"
     },
     {
       "title": "Annual loyalty upgrade",
-      "description": "One free Deluxe Detail upgrade after 12 consecutive months"
+      "description": "One free Deluxe Detail upgrade after 52 weeks in the program"
     },
     {
       "title": "Referral perk",
-      "description": "Refer a friend who joins — get a free month"
+      "description": "Refer a friend who joins — get your next refresh detail for 50% off"
     }
   ]
 }
