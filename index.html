@@ -547,7 +547,7 @@
           <div class="mp-row"><span>SUV / Crossover</span><strong id="price-mem-suv">$115<small>/mo</small></strong></div>
           <div class="mp-row"><span>Truck / Large SUV / Minivan</span><strong id="price-mem-truck">$129<small>/mo</small></strong></div>
         </div>
-        <p class="membership-savings">That's roughly 18–20% off standard Refresh Detail pricing — plus <span id="mem-discount">15%</span> off every add-on, every single month.</p>
+        <p class="membership-savings" id="membership-savings">That's roughly 18–20% off standard Refresh Detail pricing — plus <span id="mem-discount">15%</span> off every add-on, every single month.</p>
         <a href="#contact" class="btn btn-gold">Join Shine All The Time</a>
       </div>
 
@@ -871,6 +871,11 @@ async function loadSiteData() {
         s('membership-heading-main', me.heading);
         s('membership-heading-highlight', me.heading_highlight);
         s('membership-intro', me.intro);
+        const savingsEl = document.getElementById('membership-savings');
+        if(savingsEl && me.savings_note) {
+          const discountSpan = '<span id="mem-discount">' + mem.discount_percent + '%</span>';
+          savingsEl.innerHTML = me.savings_note.replace('{add_on_discount}', discountSpan);
+        }
       }
 
       const ge = content.gallery_extra;
