@@ -180,6 +180,7 @@ collections:
               - { label: "Heading (before highlight)", name: "heading", widget: "string" }
               - { label: "Heading Highlight", name: "heading_highlight", widget: "string" }
               - { label: "Intro Text", name: "intro", widget: "text" }
+              - { label: "Savings Note (write {add_on_discount} where the add-on discount % should appear)", name: "savings_note", widget: "text" }
 
           - label: "Our Work / Gallery Section"
             name: "gallery_extra"
