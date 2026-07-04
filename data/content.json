@@ -8,9 +8,18 @@
     "cta_primary": "Book Now",
     "cta_secondary": "View Packages",
     "stats": [
-      { "num": "100%", "label": "Mobile Service" },
-      { "num": "2", "label": "Detail Packages" },
-      { "num": "5+", "label": "Areas Served" }
+      {
+        "num": "100%",
+        "label": "Mobile Service"
+      },
+      {
+        "num": "2",
+        "label": "Detail Packages"
+      },
+      {
+        "num": "5+",
+        "label": "Areas Served"
+      }
     ]
   },
   "services": {
@@ -66,7 +75,7 @@
     "heading": "Shine All",
     "heading_highlight": "The Time",
     "intro": "A membership for owners who want their car to always look its best — without thinking about booking it. One monthly detail, a reserved spot on the calendar, and real perks that add up.",
-    "savings_note": "That's roughly 18–20% off standard Refresh Detail pricing — plus {add_on_discount} off every add-on, every single month."
+    "savings_note": "That's roughly 18–20% off standard Refresh Detail pricing — plus {add_on_discount} off every add-on, every 4 weeks."
   },
   "gallery_extra": {
     "eyebrow": "Our Work",
@@ -88,11 +97,26 @@
     "heading_highlight": "built on the basics done right.",
     "description": "High School Shine is a mobile detailing business based in West Linn, Oregon. We started with one simple idea: every car deserves a real, hands-on detail — not a rushed drive-through wash — without the customer having to go anywhere.",
     "list_items": [
-      { "title": "Fully Mobile", "description": "We bring our own equipment and come to you — we just need access to a water spigot and an outlet at your home." },
-      { "title": "Professional-Grade Products", "description": "P&S, CarPro, and Griot's Garage — trusted by detailers nationwide." },
-      { "title": "Honest Pricing", "description": "Two clear packages, priced by vehicle size — no upsell surprises." },
-      { "title": "For Those Who Serve", "description": "First responders, military members, and veterans get 10% off every detail — thank you for what you do." },
-      { "title": "Giving Back", "description": "5% of profit from every job goes to a charity you choose: <a href=\"https://www.stjude.org\" target=\"_blank\" rel=\"noopener\">St. Jude Children's Research Hospital</a>, <a href=\"https://itsbigtime.org\" target=\"_blank\" rel=\"noopener\">Big Brothers Big Sisters Columbia Northwest</a>, or <a href=\"https://jaorswwa.org\" target=\"_blank\" rel=\"noopener\">Junior Achievement of Oregon & SW Washington</a>. Click on the charities to learn more." }
+      {
+        "title": "Fully Mobile",
+        "description": "We bring our own equipment and come to you — we just need access to a water spigot and an outlet at your home."
+      },
+      {
+        "title": "Professional-Grade Products",
+        "description": "P&S, CarPro, and Griot's Garage — trusted by detailers nationwide."
+      },
+      {
+        "title": "Honest Pricing",
+        "description": "Two clear packages, priced by vehicle size — no upsell surprises."
+      },
+      {
+        "title": "For Those Who Serve",
+        "description": "First responders, military members, and veterans get 10% off every detail — thank you for what you do."
+      },
+      {
+        "title": "Giving Back",
+        "description": "5% of profit from every job goes to a charity you choose: <a href=\"https://www.stjude.org\" target=\"_blank\" rel=\"noopener\">St. Jude Children's Research Hospital</a>, <a href=\"https://itsbigtime.org\" target=\"_blank\" rel=\"noopener\">Big Brothers Big Sisters Columbia Northwest</a>, or <a href=\"https://jaorswwa.org\" target=\"_blank\" rel=\"noopener\">Junior Achievement of Oregon & SW Washington</a>. Click on the charities to learn more."
+      }
     ]
   },
   "contact_extra": {
