@@ -32,7 +32,7 @@
   "vehicle_labels": {
     "sedan": "Sedan / Coupe",
     "suv": "Mid sized SUV / Crossover ",
-    "truck": "Wagons/Truck / Minivan / Large SUV (3-Row)"
+    "truck": "Wagons / Truck / Minivan / Large SUV (3-Row)"
   },
   "hero": {
     "eyebrow": "Premium Mobile Detailing · West Linn, OR",
@@ -83,7 +83,6 @@
       "tag": "For a deep, transformative clean",
       "includes_note": "Everything in Refresh Detail, plus:",
       "features": [
-        "",
         "Deep wheel, tire & wheel well cleaning",
         "Bug & tar removal",
         "Hand applied and buffed ceramic wax (offers 3+ months of protection)",
