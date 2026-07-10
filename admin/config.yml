@@ -232,3 +232,11 @@ collections:
             widget: "object"
             fields:
               - { label: "Book Now Button Text", name: "book_now", widget: "string" }
+
+          - label: "Vehicle Type Labels (used in pricing tables & booking form)"
+            name: "vehicle_labels"
+            widget: "object"
+            fields:
+              - { label: "Sedan Label", name: "sedan", widget: "string" }
+              - { label: "SUV / Crossover Label", name: "suv", widget: "string" }
+              - { label: "Truck / Large SUV Label", name: "truck", widget: "string" }
